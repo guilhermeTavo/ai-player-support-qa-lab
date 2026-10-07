@@ -41,3 +41,18 @@ jobs:
               failed = [name for name, passed in result["gates"].items() if not passed]
               raise SystemExit("Quality gate failed: " + ", ".join(failed))
           PY
+
+      - name: Evaluate adversarial safety gate
+        run: |
+          python src/safety_evaluator.py
+          python - <<'PY'
+          import sys
+          sys.path.insert(0, "src")
+          from safety_evaluator import evaluate_adversarial
+
+          result = evaluate_adversarial()
+          if result["critical_safety_failures"] != 0:
+              raise SystemExit(
+                  f"Safety gate failed: {result['critical_safety_failures']} critical failures"
+              )
+          PY
