@@ -1,0 +1,302 @@
+[
+  {
+    "id": "TICKET-001",
+    "message": "I bought 1,000 crystals about an hour ago, but they still haven't appeared on my account.",
+    "expected": {
+      "language": "en",
+      "category": "billing",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-002",
+    "message": "Comprei o passe de batalha hoje e fui cobrado, mas ele continua bloqueado na minha conta.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "billing",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-003",
+    "message": "My card is being declined every time I try to buy the starter pack. I haven't been charged.",
+    "expected": {
+      "language": "en",
+      "category": "billing",
+      "priority": "P2",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-004",
+    "message": "Fui cobrado três vezes pela mesma compra de cristais. Preciso que verifiquem isso.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "billing",
+      "priority": "P1",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-005",
+    "message": "Can you refund the skin I purchased yesterday? I changed my mind.",
+    "expected": {
+      "language": "en",
+      "category": "billing",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-006",
+    "message": "I can't log in after linking my Steam account. It keeps sending me back to the login screen.",
+    "expected": {
+      "language": "en",
+      "category": "account",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-007",
+    "message": "Recebi um e-mail de troca de senha que não solicitei e agora não consigo entrar na minha conta.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "account",
+      "priority": "P1",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-008",
+    "message": "Someone changed my account email and my password no longer works. Please help.",
+    "expected": {
+      "language": "en",
+      "category": "account",
+      "priority": "P1",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-009",
+    "message": "Como eu altero o e-mail cadastrado na minha conta?",
+    "expected": {
+      "language": "pt-BR",
+      "category": "account",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-010",
+    "message": "I lost access to my authenticator and need help recovering my account.",
+    "expected": {
+      "language": "en",
+      "category": "account",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-011",
+    "message": "The game crashes every time I enter the capital city. It started after the latest update.",
+    "expected": {
+      "language": "en",
+      "category": "technical",
+      "priority": "P2",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-012",
+    "message": "Meu jogo fica com a tela preta depois de selecionar o personagem, mas o áudio continua funcionando.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "technical",
+      "priority": "P2",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-013",
+    "message": "The launcher shows error 504 when downloading the update. Is there anything I can try?",
+    "expected": {
+      "language": "en",
+      "category": "technical",
+      "priority": "P2",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-014",
+    "message": "Depois do patch meu FPS caiu um pouco, mas consigo jogar normalmente.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "technical",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-015",
+    "message": "Everyone in my guild and people on the forum say they were disconnected and nobody can log back in.",
+    "expected": {
+      "language": "en",
+      "category": "technical",
+      "priority": "P0",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-016",
+    "message": "My main quest is stuck after I defeated the boss. The NPC won't give me the next objective.",
+    "expected": {
+      "language": "en",
+      "category": "gameplay",
+      "priority": "P2",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-017",
+    "message": "Qual é a diferença entre dano crítico e chance crítica?",
+    "expected": {
+      "language": "pt-BR",
+      "category": "gameplay",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-018",
+    "message": "An item disappeared when I moved it from my inventory to storage. It was a rare quest reward.",
+    "expected": {
+      "language": "en",
+      "category": "gameplay",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-019",
+    "message": "A interface da missão está cobrindo parte do minimapa na resolução 1366x768.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "gameplay",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-020",
+    "message": "What level do I need to enter the Moonfall dungeon?",
+    "expected": {
+      "language": "en",
+      "category": "gameplay",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-021",
+    "message": "A player has been insulting me in Portuguese for the last three matches. I have screenshots.",
+    "expected": {
+      "language": "en",
+      "category": "abuse",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-022",
+    "message": "Tem um jogador usando speed hack nas partidas ranqueadas. Gravei um vídeo mostrando.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "abuse",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-023",
+    "message": "This player said they know where I live and that they're coming to hurt me tonight.",
+    "expected": {
+      "language": "en",
+      "category": "abuse",
+      "priority": "P1",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-024",
+    "message": "Quero saber se o jogador que denunciei ontem foi banido.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "abuse",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-025",
+    "message": "I found a reproducible exploit that lets players duplicate premium items. I can provide the steps privately.",
+    "expected": {
+      "language": "en",
+      "category": "abuse",
+      "priority": "P1",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-026",
+    "message": "Please delete all personal data associated with my Eclipse Realms account.",
+    "expected": {
+      "language": "en",
+      "category": "other",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-027",
+    "message": "Gostaria de saber onde encontro as notas oficiais da última atualização.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "other",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-028",
+    "message": "I was suspended and I want to appeal the sanction.",
+    "expected": {
+      "language": "en",
+      "category": "other",
+      "priority": "P2",
+      "escalation_required": true
+    }
+  },
+  {
+    "id": "TICKET-029",
+    "message": "Preciso de ajuda para entender quais idiomas são suportados pelo jogo.",
+    "expected": {
+      "language": "pt-BR",
+      "category": "other",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  },
+  {
+    "id": "TICKET-030",
+    "message": "I want to report a problem but I'm not sure which category it belongs to. Where can I get support?",
+    "expected": {
+      "language": "en",
+      "category": "other",
+      "priority": "P3",
+      "escalation_required": false
+    }
+  }
+]
